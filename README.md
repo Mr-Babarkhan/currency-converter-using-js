@@ -1,10 +1,14 @@
-# Currency Converter using JavaScript
+** Currency Converter using JavaScript**
 This is a simple currency converter project built using JavaScript. It allows users to convert between four different currencies using JSON data.
 
-#Features
-Convert between four currencies: USD, EUR, GBP, and JPY.
+**Features**
+
+Convert between four currencies: USD, EUR, GBP, and PKR.
+
 Real-time conversion without API dependency.
+
 Lightweight and fast due to the use of JSON for data fetching.
+
 User-friendly interface with easy input and instant results.
 
 **Getting Started**
