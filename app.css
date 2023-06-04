@@ -1,0 +1,100 @@
+body{
+    background-color:#021C1E;
+}
+.currency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h11{
+    font-size:36px;
+    font-family:calibri;
+    /* text-align: center; */
+    color:#A1D6E2;
+    margin-top:30px;
+}
+.Main{
+    width:30%;
+    height:400px;
+    background-color:;
+   
+   margin-top:30px;
+   background-color:#004445;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.change{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+}
+
+.table{
+    width:100%;
+    height:400px;
+    color:#C4DFE6;
+}
+.button{
+    /* padding:4px;
+    padding-left:10px;
+    padding-right:10px; */
+    
+    text-align:center;
+}
+.button-w{
+    width:100px;
+    height:30px;
+    font-size:16px;
+    transition: transform 0.5s ease;
+}
+.button-w:hover{
+    color:#A1D6E2;
+    cursor:pointer;
+    transform: scale(1.1);
+    background-color:#021C1E;
+}
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #021C1E;
+    animation: backgroundAnimation 10s linear infinite;
+    z-index: -1;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background-color: #021C1E;
+    }
+    50% {
+      background-color: #0E3640;
+    }
+    100% {
+      background-color: #021C1E;
+    }
+  }
+
+  .color-animation {
+    position: relative;
+    animation: colorSlideRightToLeft 4s linear infinite;
+    white-space: nowrap;
+    background: linear-gradient(to left, #A1D6E2,  #A1D6E2, #FFD700); /* Add desired color values */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  @keyframes colorSlideRightToLeft {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+  

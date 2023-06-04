@@ -1,0 +1,84 @@
+<html>
+   <head>
+   <title>
+    Currency Converter
+   </title>
+     <link rel="stylesheet"  href="app.css">
+
+</head>
+<script src="app.js">
+</script>
+    <body >
+        <div class="background-animation"></div>
+        <div class="currency">
+           <span class="h11 color-animation">
+        Currency Converter App Using Javascript
+    </span>
+        </div>
+        <div class="change">
+
+<form class="Main">
+    <table border="3" class="table">
+        <tr>
+            <th colspan="2">
+                <label style="font-size: 30px;font-family: 'Times New Roman', Times, serif;color: #C4DFE6;">
+                    Currency Converter 
+                </label>
+            </th>
+        </tr>
+        <tr >
+            <td colspan="2">
+                <input type="number" placeholder="Amount" id="Amount" style="width: 100%; box-sizing: border-box; padding: 8;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Convert from:
+                </label>
+            </td>
+            <td>
+                <select id="From" class="select">
+                    <option value="USD">USD</option>
+                    <option value="PKR">PKR</option>
+                    <option value="INR">INR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="GBP">GBP</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                   Convert To:
+                </label>
+            </td>
+            <td>
+                <select id="To">
+                    <option value="PKR">PKR</option>
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="GBP">GBP</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="button">
+                <input type="button" value="Convert" onclick="convertCurrency()" class="button-w">
+            </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div style="display: flex;align-items: center;justify-content: center;">
+            <span style="font-size: 24px;">Converted value:</span><br>  <h3 id="Result" style="color:chocolate">
+                </h3>
+            </div>
+          </td>  
+        </tr>
+    </table>
+    
+</form>
+</div>
+    </body>
+</html>
